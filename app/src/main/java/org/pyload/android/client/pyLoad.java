@@ -154,7 +154,7 @@ public class pyLoad extends FragmentTabsPager {
             } catch (NumberFormatException e) {
                 interval = 5;
             }
-            Toast.makeText(this, "Checking for Captcha every " + interval + "s", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Checking for Captcha every " + interval + "s", Toast.LENGTH_SHORT).show();
             interval *= 1000;
             alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + interval,
                     interval, checkCaptchaIntent);
