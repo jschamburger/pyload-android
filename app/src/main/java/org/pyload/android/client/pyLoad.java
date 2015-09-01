@@ -220,6 +220,16 @@ public class pyLoad extends FragmentTabsPager {
 
             return true;
 
+        case R.id.delete_finished:
+            app.addTask(new GuiTask(new Runnable() {
+                public void run() {
+                    Client client = app.getClient();
+                    client.deleteFinished();
+                }
+            }, app.handleSuccess));
+
+            return true;
+
         case R.id.ic_menu_check_captcha:
             SharedPreferences.Editor prefEdit = app.prefs.edit();
             Log.d("pyLoad", "CheckCaptcha: " + item.isChecked());

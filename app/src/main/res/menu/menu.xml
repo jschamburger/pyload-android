@@ -33,6 +33,11 @@
         android:title="@string/restart_failed" />
 
     <item
+        android:id="@+id/delete_finished"
+        android:title="@string/delete_finished"
+        android:showAsAction="never" />
+
+    <item
         android:id="@+id/ic_menu_check_captcha"
         android:title="@string/check_captcha"
         android:showAsAction="never"

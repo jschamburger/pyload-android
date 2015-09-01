@@ -92,6 +92,7 @@
   <string name="language">Sprache</string>
   <string name="language_desc">Sprache der App. Ein Neustart ist notwendig, damit die Änderungen in Kraft treten.</string>
   <string name="check_captcha">Prüfe auf Captchas im Hintergrund</string>
+  <string name="delete_finished">Fertiggestellte Downloads löschen</string>
   <string-array name="destination_list">
     <item>Warteschlange</item>
     <item>Linksammler</item>
