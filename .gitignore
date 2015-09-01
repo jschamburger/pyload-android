@@ -33,3 +33,11 @@ proguard/
 *.zip
 ant.properties
 *.svn/
+
+# Android Studio / Gradle stuff
+build/
+app/build/
+.gradle/
+gradle/
+gradlew
+gradlew.bat
